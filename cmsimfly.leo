@@ -13,11 +13,11 @@
 <v t="amd.20160714225308.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20160714225308.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180702145534.1"><vh>wsgi start/stop</vh>
+<v t="leo.20180702145534.1" a="E"><vh>wsgi start/stop</vh>
 <v t="leo.20180702142719.1"><vh>@button start wsgi</vh></v>
 <v t="leo.20180702142849.1"><vh>@button stop wsgi</vh></v>
 </v>
-<v t="leo.20180702145555.1"><vh>http start/stop</vh>
+<v t="leo.20180702145555.1" a="E"><vh>http start/stop</vh>
 <v t="leo.20180702145442.1"><vh>@button start http.server</vh></v>
 <v t="leo.20180702145458.1"><vh>@button stop http.server</vh></v>
 </v>
@@ -60,13 +60,6 @@
 <v t="amd.20160718125943.1"><vh>@edit stlviewer.js</vh></v>
 <v t="amd.20160718212341.1"><vh>@edit jsc3d.js</vh></v>
 </v>
-<<<<<<< HEAD
-<v t="amd.20160714230058.1" a="E"><vh>@clean wsgi.py</vh>
-<v t="amd.20160714230122.1"><vh>wsgi declarations</vh></v>
-</v>
-<v t="amd.20160714230833.1" a="E"><vh>編輯 flaskapp.py</vh>
-<v t="leo.20181015203721.1" a="E"><vh>@auto flaskapp.py</vh></v>
-=======
 <v t="amd.20160714230058.1"><vh>@clean wsgi.py</vh>
 <v t="amd.20160714230122.1"><vh>wsgi declarations</vh></v>
 </v>
@@ -137,140 +130,12 @@
 <v t="amd.20160714231606.1"><vh>tinymce_editor (#4)</vh></v>
 <v t="amd.20160714232232.1"><vh>unique</vh></v>
 </v>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 </v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160714225245.2">we are going to use flask to write an simple cms system based upon cmsimply.
 
 </t>
-<<<<<<< HEAD
-<t tx="amd.20160714225308.1"></t>
-<t tx="amd.20160714225308.2">QSplitter::handle {
-    background-color: #CAE1FF; /* lightSteelBlue1 */
-}
-
-QStackedWidget {
-    /* background-color:lightpink; */
-    border-color: red;
-    padding: 0px;
-    /* border-width: 0px; */
-    /* background-color: yellow; */
-}
-
-QSplitter {
-    border-color: white;
-    background-color: white;
-    border-style: solid;
-}
-
-QTreeWidget {
-    /* These apply to the selected item, but not to editing items.*/
-    background-color: #ffffec; /* Leo's traditional tree color */
-    selection-color: black; /* was white */
-    selection-background-color: lightgrey;
-    /* font-family: SansSerif; */
-    /*font-family: DejaVu Sans Mono;*/
-    font-family:YaHei Mono;
-    /* 標題字型大小設定 */
-    font-size: 22px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal, italic,oblique */
- }
-
-/* Headline edit widgets */
-QTreeWidget QLineEdit {
-    background-color: cornsilk;
-    selection-color: white;
-    selection-background-color: blue;
-    /*font-family: DejaVu Sans Mono;*/    
-    font-family:YaHei Mono;
-    /* 沒有特別對應字型大小 */
-    font-size: 22px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal, italic,oblique */
-}
-
-/* The log panes */
-QTextEdit {
-    background-color: #f2fdff;
-    selection-color: red;
-    selection-background-color: blue;
-    /* font-family: Courier New; */
-    font-family:YaHei Mono;
-    /* log font 大小 */
-    font-size: 22px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal, italic,oblique */
-}
-
-/* The body pane */
-QTextEdit#richTextEdit {
-    background-color: #fdf5f5; /* A kind of pink. */
-    selection-color: white;
-    selection-background-color: red;
-    /*font-family: DejaVu Sans Mono;*/
-    /* font-family: Courier New; */
-    font-family:YaHei Mono;
-    /* 內文字型大小 */
-    font-size: 22px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal,italic,oblique */
-}
-
-QLabel {
-    font-family:YaHei Mono;
-    /* 下方的 Minibuffer 標題字型大小 */
-    font-size: 22px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal,italic,oblique */
-}
-
-/* Editor labels */
-QLineEdit#editorLabel {
-    background-color: #ffffec;
-    font-family:YaHei Mono;
-    /* 沒有直接對應字型大小 */
-    font-size: 22px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal,italic,oblique */
-    border: 2px;
-    margin: 2px;
-}</t>
-<t tx="amd.20160714225308.3">horizontal: body pane to the left
-vertical: body pane on the botton</t>
-<t tx="amd.20160714230058.1">@language python
-@tabwidth -4
-@others
-</t>
-<t tx="amd.20160714230122.1">#!/usr/bin/python
-# 導入同目錄下的 flaskapp.py
-import flaskapp
-import ssl
-
-# 即使在近端仍希望以 https 模式下執行
-context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
-context.load_cert_chain('localhost.crt', 'localhost.key')
-
-# 取 flaskapp.py 中的 uwsgi 變數設定
-uwsgi = flaskapp.uwsgi
-if uwsgi:
-    # 表示程式在雲端執行
-    application = flaskapp.app
-else:
-    # 表示在近端執行, 以 python3 wsgi.py 執行
-    flaskapp.app.run(
-        host='127.0.0.1', port=8443, debug=True,
-        ssl_context=context
-    )
-</t>
-<t tx="amd.20160714230833.1"></t>
-<t tx="amd.20160715000709.1">return redirect(url_for('edit_page')) 這裡的 edit_page 指函式方法
-
-但是若 return redirect("/edit_page') 則必須指向 url
-
-初步完成, 接下來讓 Flask 版本可以正常運作...</t>
-=======
 <t tx="amd.20160714225308.1"></t>
 <t tx="amd.20160714225308.2">QSplitter::handle {
     background-color: #CAE1FF; /* lightSteelBlue1 */
@@ -1082,6 +947,7 @@ window.location= 'https://' + location.host + location.pathname + location.searc
 &lt;script type="text/javascript" src="/static/gearUtils-05.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+
 '''
 
 
@@ -2147,7 +2013,6 @@ def sitemap(edit):
 
 
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 <t tx="amd.20160715211540.1">@app.route('/sitemap', defaults={'edit':1})
 @app.route('/sitemap/&lt;path:edit&gt;')
 def sitemap(edit):
@@ -2267,8 +2132,6 @@ def get_page(heading, edit):
             #outstring = last_page+" "+next_page+"&lt;br /&gt;"+ tinymce_editor(directory, cgi.escape(pagedata), page_order)
                 return outstring</t>
 <t tx="amd.20160717222221.1"></t>
-<<<<<<< HEAD
-=======
 <t tx="amd.20160717235504.1">@app.route('/delete_file', methods=['POST'])
 def delete_file():
     """Delete user uploaded files."""
@@ -2301,14 +2164,11 @@ def delete_file():
 
 
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 <t tx="amd.20160718002238.1">有關內容解碼
 
 http://stackoverflow.com/questions/12247681/tinymce-is-adding-nbsp-instead-of-the-space-when-using-the-word-paste
 
 現在標題中有空白時會使用 + 但是正確的編碼應該是 %20</t>
-<<<<<<< HEAD
-=======
 <t tx="amd.20160718212924.1"># downloads 方法主要將位於 downloads 目錄下的檔案送回瀏覽器
 @app.route('/downloads/&lt;path:path&gt;')
 def downloads(path):
@@ -2317,7 +2177,6 @@ def downloads(path):
 
 
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 <t tx="leo.20180625155103.1">2018.06.25 啟動
 
 使用 SQLite 資料庫儲存檔案, 而且可以轉為純 html 文件
@@ -2339,8 +2198,6 @@ memo - 額外註解欄位
 結合 downloads, images, static 與 content 目錄中的子頁面, 可以放入 Github Pages 或 Fossil SCM doc 目錄中, 成為靜態網站內容.
 
 </t>
-<<<<<<< HEAD
-=======
 <t tx="leo.20180630142017.1">@app.route('/generate_pages')
 def generate_pages():
     # 必須決定如何處理重複標題頁面的轉檔
@@ -2564,14 +2421,11 @@ window.location= 'https://' + location.host + location.pathname + location.searc
 
 
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 <t tx="leo.20180630211407.1">圖片的連結必須改為靜態模式, 而非目前的動態模式
 
 整體依附在 OpenShift 的部分必須刪除?
 
 可能在 generate_pages  時針對 downloads 與 images 目錄中的引用,  將動態格式轉為靜態格式</t>
-<<<<<<< HEAD
-=======
 <t tx="leo.20180630233136.1">def syntaxhighlight2():
     return '''
 &lt;script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"&gt;&lt;/script&gt;
@@ -2614,11 +2468,12 @@ init_mathjax();
 &lt;script type="text/javascript" src="./../static/gearUtils-05.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+
 '''
 
 
+
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 <t tx="leo.20180701102916.1">去除 OpenShift 相關程式碼
 
 增加轉為靜態網頁格式功能
@@ -2797,8 +2652,6 @@ bpm.kill(kind="http")
 </t>
 <t tx="leo.20180702145534.1"></t>
 <t tx="leo.20180702145555.1"></t>
-<<<<<<< HEAD
-=======
 <t tx="leo.20180711105804.1"># reveal 方法主要將位於 reveal 目錄下的檔案送回瀏覽器
 '''
 目前在 CMSimfly 管理模式下已經無需透過 Flask送回 reveal 與 Pelican blog 資料
@@ -2821,7 +2674,6 @@ def blog(path):
 
 
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 <t tx="leo.20180712144340.1">因為每次 generate_pages 必須將 content 目錄中的所有檔案刪除後, 再從 content.htm 轉為靜態網頁, 因此從負擔較重的每次存檔都自動轉檔, 改回必要時再以手動呼叫 generate_pages 進行轉檔.</t>
 <t tx="leo.20180726212905.1">存檔時移除所有 tag of title
 
@@ -2829,8 +2681,6 @@ def blog(path):
 
 bug 180726</t>
 <t tx="leo.20180728154823.1">將程式碼逐一修改為 flake8 查驗無誤</t>
-<<<<<<< HEAD
-=======
 <t tx="leo.20180801114917.1">def parse_content():
     """use bs4 and re module functions to parse content.htm"""
     #from pybean import Store, SQLiteWriter
@@ -2911,6 +2761,5 @@ bug 180726</t>
 
 
 </t>
->>>>>>> 94b1ca7ed37210ad8a1717aef3d1998db4151209
 </tnodes>
 </leo_file>
