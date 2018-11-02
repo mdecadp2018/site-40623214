@@ -1,2 +1,8 @@
-# 40623214 CADPb計算機程式與電腦輔助設計實習課程
-40623214計算機程式與電腦輔助設計實習課程倉儲
+#2018fall
+倉儲：https：//github.com/mdecadp2018/site-40623214
+
+網站：https：//mdecadp2018.github.io/site-40623214
+
+網誌：https：//mdecadp2018.github.io/site-40623214/blog
+
+簡報：https：//mdecadp2018.github.io/site-40623214/reveal
