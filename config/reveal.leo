@@ -165,7 +165,6 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20180827201621.12">## week11
 
-
 被分配到的工作是"v-rep模擬"
 並開始模擬工作
 
@@ -308,7 +307,7 @@ vertical: body pane on the botton</t>
 模擬過程:
 
 
-&lt;iframe width="1280" height="687" src="https://www.youtube.com/embed/wCg6Cc9fPJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="300" src="https://www.youtube.com/embed/wCg6Cc9fPJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20181014170137.1">&lt;section&gt;
@@ -355,7 +354,7 @@ vertical: body pane on the botton</t>
 模擬成果:
 
 
-&lt;iframe width="1280" height="720" src="https://www.youtube.com/embed/JskeFYrLyXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="300" src="https://www.youtube.com/embed/JskeFYrLyXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20181014170356.1">&lt;section&gt;
