@@ -24,35 +24,35 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11"><vh>w11</vh>
+<v t="leo.20180827201621.11" a="E"><vh>w11</vh>
 <v t="leo.20180827201621.12"><vh>week11</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>w12</vh>
+<v t="leo.20180827201621.13" a="E"><vh>w12</vh>
 <v t="leo.20180827201621.14" a="E"><vh>week12</vh>
 <v t="leo.20180827201621.15"><vh>week12</vh></v>
 </v>
 </v>
-<v t="leo.20181014165804.1"><vh>w13</vh>
+<v t="leo.20181014165804.1" a="E"><vh>w13</vh>
 <v t="leo.20181014165804.2" a="E"><vh>week13</vh>
 <v t="leo.20181014165804.3"><vh>week13</vh></v>
 </v>
 </v>
-<v t="leo.20181014170137.1"><vh>w14</vh>
+<v t="leo.20181014170137.1" a="E"><vh>w14</vh>
 <v t="leo.20181014170137.2" a="E"><vh>week14</vh>
 <v t="leo.20181014170137.3"><vh>week14</vh></v>
 </v>
 </v>
-<v t="leo.20181014170153.1"><vh>w15</vh>
+<v t="leo.20181014170153.1" a="E"><vh>w15</vh>
 <v t="leo.20181014170153.2" a="E"><vh>week15</vh>
 <v t="leo.20181014170153.3"><vh>week15</vh></v>
 </v>
 </v>
-<v t="leo.20181014170356.1"><vh>w16</vh>
+<v t="leo.20181014170356.1" a="E"><vh>w16</vh>
 <v t="leo.20181014170356.2" a="E"><vh>week16</vh>
 <v t="leo.20181014170356.3"><vh>week16</vh></v>
 </v>
 </v>
-<v t="leo.20181014170403.1"><vh>w17</vh>
+<v t="leo.20181014170403.1" a="E"><vh>w17</vh>
 <v t="leo.20181014170403.2" a="E"><vh>week17</vh>
 <v t="leo.20181014170403.3"><vh>week17</vh></v>
 </v>
@@ -152,8 +152,6 @@ vertical: body pane on the botton</t>
 &lt;/small&gt;
 
 
-* [2019 Spring CD B 班期末協同專案倉儲](https://github.com/scrum-1/cd2019b)
-
 * [分組專案 BG2 小組倉儲](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g2)
 
 * [個人倉儲](https://github.com/mdecadp2018/site-40623214)
@@ -167,8 +165,11 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20180827201621.12">## week11
 
+
 被分配到的工作是"v-rep模擬"
-並開始模擬工作</t>
+並開始模擬工作
+
+</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -185,7 +186,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20180827201621.15">##week12
+<t tx="leo.20180827201621.15">## week12
 
 這週開始footsball:man vs man simulation
 這週遇到很多程式上的麻煩
@@ -307,7 +308,9 @@ vertical: body pane on the botton</t>
 模擬過程:
 
 
-&lt;iframe width="560" height="314" src="https://youtu.be/wCg6Cc9fPJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="1280" height="687" src="https://www.youtube.com/embed/wCg6Cc9fPJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20181014170137.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -324,10 +327,12 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181014170137.3">##week14
+<t tx="leo.20181014170137.3">## week14
 
 這週開始footsball:man vs machine simulation
-這次的模擬比上次的難,也花了很長一段時間去問別人</t>
+這次的模擬比上次的難,也花了很長一段時間去問別人
+
+</t>
 <t tx="leo.20181014170153.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -344,13 +349,15 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181014170153.3">##week15
+<t tx="leo.20181014170153.3">## week15
 
 這週終於做出footsball:man vs machine simulation
 模擬成果:
 
 
-&lt;iframe width="560" height="314" src="https://youtu.be/JskeFYrLyXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="1280" height="720" src="https://www.youtube.com/embed/JskeFYrLyXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20181014170356.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -367,10 +374,12 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181014170356.3">##week16
+<t tx="leo.20181014170356.3">## week16
 
 這週本來想再做footsball:machine vs machine simulation
-但由於時間不夠,最後沒有做出這次的模擬</t>
+但由於時間不夠,最後沒有做出這次的模擬
+
+</t>
 <t tx="leo.20181014170403.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -387,9 +396,12 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181014170403.3">##week17
+<t tx="leo.20181014170403.3">## week17
 
-這週完成個人簡報及備考週
-自評成績 62</t>
+這週完成個人簡報及備考週,這次分組很感謝同組的同學對我不離不棄,即使知道我都不會,再我問他們的時候,還是很認真教我,別組的同學也是,謝謝他們的幫忙,讓我學到很多東西。
+
+自評成績 62
+
+</t>
 </tnodes>
 </leo_file>
